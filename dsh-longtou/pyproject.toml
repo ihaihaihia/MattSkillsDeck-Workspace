@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsh-longtou"
+version = "0.1.0"
+description = "A-share 2-3/3-4/4-5 leading-stock research engine and DSH plugin"
+requires-python = ">=3.12"
+dependencies = [
+    "eltdx==3.2.3",
+]
+
+[project.scripts]
+longtou = "longtou.cli:main"
+
+[tool.setuptools]
+packages = ["longtou"]

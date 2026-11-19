@@ -1,0 +1,96 @@
+{
+  "columns": [
+    {
+      "header_path": [
+        "Company"
+      ],
+      "key": "c1",
+      "name": "Company",
+      "name_source": "header"
+    },
+    {
+      "header_path": [
+        "Contact"
+      ],
+      "key": "c2",
+      "name": "Contact",
+      "name_source": "header"
+    },
+    {
+      "header_path": [
+        "Country"
+      ],
+      "key": "c3",
+      "name": "Country",
+      "name_source": "header"
+    }
+  ],
+  "coverage": {
+    "dataset_complete": "unknown",
+    "rows_returned": 6,
+    "scope": "loaded_dom",
+    "truncated": false
+  },
+  "csv_headers": [
+    "Company",
+    "Contact",
+    "Country",
+    "_source_url",
+    "_source_frame_url",
+    "_source_row"
+  ],
+  "csv_safe": false,
+  "csv_sha256": "2d1a67097d59429bf93567ffac3aaf937cd3425827f90abc182cd3d76074f767",
+  "escaped_cells": [],
+  "kind": "table",
+  "null_cells": [],
+  "row_sources": [
+    {
+      "locator": "#customers > tbody:nth-of-type(1) > tr:nth-of-type(2)",
+      "row": 0,
+      "row_kind": "data",
+      "source_row": 2
+    },
+    {
+      "locator": "#customers > tbody:nth-of-type(1) > tr:nth-of-type(3)",
+      "row": 1,
+      "row_kind": "data",
+      "source_row": 3
+    },
+    {
+      "locator": "#customers > tbody:nth-of-type(1) > tr:nth-of-type(4)",
+      "row": 2,
+      "row_kind": "data",
+      "source_row": 4
+    },
+    {
+      "locator": "#customers > tbody:nth-of-type(1) > tr:nth-of-type(5)",
+      "row": 3,
+      "row_kind": "data",
+      "source_row": 5
+    },
+    {
+      "locator": "#customers > tbody:nth-of-type(1) > tr:nth-of-type(6)",
+      "row": 4,
+      "row_kind": "data",
+      "source_row": 6
+    },
+    {
+      "locator": "#customers > tbody:nth-of-type(1) > tr:nth-of-type(7)",
+      "row": 5,
+      "row_kind": "data",
+      "source_row": 7
+    }
+  ],
+  "schema_version": 1,
+  "source": {
+    "captured_at": "2026-10-19T15:35:38.594Z",
+    "frame_id": "B48D443E613A1561A9F5BD2C25888FEC",
+    "frame_url": "https://www.w3schools.com/html/html_tables.asp",
+    "page_url": "https://www.w3schools.com/html/html_tables.asp",
+    "target_id": "xt_967bea5a-2987-4b47-9321-df908300d9da",
+    "title": "HTML表格"
+  },
+  "spans": [],
+  "warnings": []
+}

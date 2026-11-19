@@ -1,0 +1,8 @@
+{
+    "hours":  120,
+    "token_file":  ".dsh-switchman-public-token.txt",
+    "url":  "https://reverse-dvd-discuss-governor.trycloudflare.com",
+    "closes_at":  "2026-11-06 21:28:30",
+    "opened_at":  "2026-11-04 20:40:00",
+    "note":  "11-04 隧道进程曾停止，已重启并换新域名；closes_at 仍按 11-06 21:28 的原窗口与计划任务 dsh-longtou-close-tunnel 执行"
+}
